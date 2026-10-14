@@ -1,0 +1,23 @@
+{
+  "test_accuracy": 0.992,
+  "real_class": {
+    "precision": 0.994,
+    "recall": 0.99,
+    "f1_score": 0.992
+  },
+  "fake_class": {
+    "precision": 0.99,
+    "recall": 0.994,
+    "f1_score": 0.992
+  },
+  "confusion_matrix": [
+    [
+      495,
+      5
+    ],
+    [
+      3,
+      497
+    ]
+  ]
+}

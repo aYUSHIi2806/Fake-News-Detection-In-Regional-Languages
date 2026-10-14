@@ -1,0 +1,47 @@
+{
+  "model_architecture": "Dual-Stream Subword TF-IDF + Logistic Regression",
+  "dataset": "C:\\Users\\91943\\.gemini\\antigravity\\scratch\\dual_module_fake_news_detector\\data\\master_dataset_balanced.csv",
+  "total_samples": 5000,
+  "test_holdout_samples": 1000,
+  "overall_test_accuracy": 0.989,
+  "overall_test_precision": 0.9959,
+  "overall_test_recall": 0.982,
+  "overall_test_f1": 0.9889,
+  "confusion_matrix": [
+    [
+      498,
+      2
+    ],
+    [
+      9,
+      491
+    ]
+  ],
+  "per_language_performance": {
+    "Gujarati": {
+      "test_samples": 321,
+      "accuracy": 0.9875,
+      "real_count": 169,
+      "fake_count": 152
+    },
+    "Hindi": {
+      "test_samples": 311,
+      "accuracy": 0.9839,
+      "real_count": 192,
+      "fake_count": 119
+    },
+    "Marathi": {
+      "test_samples": 134,
+      "accuracy": 1.0,
+      "real_count": 21,
+      "fake_count": 113
+    },
+    "Telugu": {
+      "test_samples": 234,
+      "accuracy": 0.9915,
+      "real_count": 118,
+      "fake_count": 116
+    }
+  },
+  "timestamp": "2026-10-11T16:41:37.980720"
+}
