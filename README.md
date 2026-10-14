@@ -153,11 +153,3 @@ Streamlit will automatically launch your default browser at:
 
 ---
 
-## 🎯 Viva Voce Defense & Examiner FAQ
-
-| Question | Strong Academic Answer |
-| :--- | :--- |
-| **Q1: What is the main difference between Module 1 and Module 2?** | Module 1 focuses on NLP-based linguistic fact-checking for Indian regional languages that lack standard NLP resources. Module 2 addresses multimodal *cheapfakes* (where an authentic photo is weaponized with an unrelated, false headline). |
-| **Q2: Why use Character Subword N-Grams for Indian languages?** | Indic languages are agglutinative; nouns and verbs conjugate by appending suffixes. Character subwords capture root semantics across dialectal variations and spelling inconsistencies. |
-| **Q3: What is Error Level Analysis (ELA)?** | ELA is a digital image forensics method. In JPEG images, modified or spliced elements undergo different compression stages than original background pixels, appearing as high-error luminous regions in the difference map. |
-| **Q4: How does the system handle class imbalance?** | Through Complement Naive Bayes and Stratified K-Fold cross-validation, ensuring minority dialect classes and fake/real distributions remain balanced across splits. |
